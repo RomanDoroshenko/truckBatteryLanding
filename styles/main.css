@@ -1,0 +1,42 @@
+*{
+	box-sizing:border-box;
+	margin: 0;
+	padding: 0;
+	
+}
+
+html,body {
+	height: 100%;
+}
+
+
+.stuck {
+	width: 100%;
+	min-height:100%;
+    background: url(../img/f-BRI-us-snow-a-20141120.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px dashed blue;
+    position: relative;
+}
+
+.bannertxt{
+
+
+}
+
+.gotStuck{
+	position: absolute;
+	z-index: 999;
+	color: #263238;
+	bottom:15%;
+	right:5%;
+	display: inline-block;
+	font: 700 2.5em/150% 'Open Sans', sans-serif;
+	text-shadow: 2px 1px 3px rgba(150, 150, 150, 1);
+}
+.gotStuck span {
+	font-size: 3.5em;
+	text-shadow: 2px 1px 3px rgba(240, 240, 240, 1);
+}
